@@ -1,5 +1,5 @@
-import React from 'react';
-import { Container, GithubLogo, SearchForm } from './styles';
+import React from "react";
+import { Container, GithubLogo, SearchForm } from "./styles";
 
 const Header: React.FC = () => {
   return (
@@ -10,6 +10,6 @@ const Header: React.FC = () => {
       </SearchForm>
     </Container>
   );
-}
+};
 
 export default Header;

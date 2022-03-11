@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub } from "react-icons/fa";
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -26,17 +26,17 @@ export const SearchForm = styled.form`
     padding: 7px 12px;
     width: 100%;
 
-    &:focus{
+    &:focus {
       width: 318px;
       margin: 0 50%;
       transform: translateX(-50%);
     }
-    &:hover{
+    &:hover {
       width: 98%;
       margin: 0 50%;
       transform: translateX(-50%);
     }
 
-    transition: all .2s ease-out;
+    transition: all 0.2s ease-out;
   }
 `;

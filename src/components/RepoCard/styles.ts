@@ -1,7 +1,6 @@
-import { AiOutlineFork } from 'react-icons/ai';
-import { RiBookMarkLine, RiStarLine } from 'react-icons/ri';
-import styled, { css } from 'styled-components';
-
+import { AiOutlineFork } from "react-icons/ai";
+import { RiBookMarkLine, RiStarLine } from "react-icons/ri";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -12,12 +11,11 @@ export const Container = styled.div`
   border-radius: 6px;
 `;
 
-
 export const TopSide = styled.div`
   > header {
     display: flex;
     align-items: center;
-    
+
     > a {
       margin-left: 8px;
       font-size: 14px;
@@ -26,7 +24,8 @@ export const TopSide = styled.div`
 
       text-decoration: none;
 
-      &:focus, &:hover {
+      &:focus,
+      &:hover {
         text-decoration: underline;
       }
     }
@@ -40,14 +39,15 @@ export const TopSide = styled.div`
   }
 `;
 
-
 const iconCSS = css`
   width: 16px;
   height: 16px;
   fill: var(--icon);
   flex-shrink: 0;
 `;
-export const RepoIcon = styled(RiBookMarkLine)`${iconCSS}`;
+export const RepoIcon = styled(RiBookMarkLine)`
+  ${iconCSS}
+`;
 export const BotSide = styled.div`
   > ul {
     display: flex;
@@ -83,5 +83,9 @@ export const BotSide = styled.div`
     }
   }
 `;
-export const StarIcon = styled(RiStarLine)`${iconCSS}`;
-export const ForkIcon = styled(AiOutlineFork)`${iconCSS}`;
+export const StarIcon = styled(RiStarLine)`
+  ${iconCSS}
+`;
+export const ForkIcon = styled(AiOutlineFork)`
+  ${iconCSS}
+`;

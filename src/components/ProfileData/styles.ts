@@ -1,5 +1,11 @@
-import styled, {css} from 'styled-components';
-import {RiGroupLine, RiBuilding4Line, RiMapPin2Line, RiMailLine, RiLinksLine} from 'react-icons/ri'
+import {
+  RiBuilding4Line,
+  RiGroupLine,
+  RiLinksLine,
+  RiMailLine,
+  RiMapPin2Line,
+} from "react-icons/ri";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div``;
 export const Flex = styled.div`
@@ -67,7 +73,9 @@ const iconCSS = css`
   flex-shrink: 0;
 `;
 
-export const PeopleIcon = styled(RiGroupLine)`${iconCSS}`;
+export const PeopleIcon = styled(RiGroupLine)`
+  ${iconCSS}
+`;
 export const Column = styled.ul`
   li {
     display: flex;
@@ -84,7 +92,15 @@ export const Column = styled.ul`
     white-space: nowrap;
   }
 `;
-export const CompanyIcon = styled(RiBuilding4Line)`${iconCSS}`;
-export const LocationIcon = styled(RiMapPin2Line)`${iconCSS}`;
-export const EmailIcon = styled(RiMailLine)`${iconCSS}`;
-export const BlogIcon = styled(RiLinksLine)`${iconCSS}`;
+export const CompanyIcon = styled(RiBuilding4Line)`
+  ${iconCSS}
+`;
+export const LocationIcon = styled(RiMapPin2Line)`
+  ${iconCSS}
+`;
+export const EmailIcon = styled(RiMailLine)`
+  ${iconCSS}
+`;
+export const BlogIcon = styled(RiLinksLine)`
+  ${iconCSS}
+`;

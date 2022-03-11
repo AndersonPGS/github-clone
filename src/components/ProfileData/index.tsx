@@ -1,17 +1,15 @@
-import { lightFormat } from "date-fns";
 import React from "react";
-
 import {
-  Container,
-  Flex,
   Avatar,
-  Row,
-  PeopleIcon,
+  BlogIcon,
   Column,
   CompanyIcon,
-  LocationIcon,
+  Container,
   EmailIcon,
-  BlogIcon,
+  Flex,
+  LocationIcon,
+  PeopleIcon,
+  Row,
 } from "./styles";
 
 interface Props {

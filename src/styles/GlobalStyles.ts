@@ -45,4 +45,4 @@ export default createGlobalStyle`
     --typescript: #2b7489;
     --other-language: #8257e5;
   }
-`
+`;
