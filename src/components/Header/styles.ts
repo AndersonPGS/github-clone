@@ -28,13 +28,6 @@ export const SearchForm = styled.form`
 
     &:focus {
       width: 318px;
-      margin: 0 50%;
-      transform: translateX(-50%);
-    }
-    &:hover {
-      width: 98%;
-      margin: 0 50%;
-      transform: translateX(-50%);
     }
 
     transition: all 0.2s ease-out;
